@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="findUserbyId" method="get">
+<form action="/findUserbyId" method="get">
 <input type="number" name="userId">
 <input type="submit" name="search">
 </form>

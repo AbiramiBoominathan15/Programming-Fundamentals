@@ -8,6 +8,6 @@
 </head>
 <body>
 <h1>Success</h1>
-<p>User Name:${userFound }</p>
+<p>User Name:<%=request.getAttribute("userFound") %></p>
 </body>
 </html>
